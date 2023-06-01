@@ -1,9 +1,12 @@
 import './App.css';
+import Typography from '@mui/material/Typography';
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Typography variant="h1" sx={{color: 'red', fontSize: '200px'}}>
+        Hello world
+      </Typography>
     </div>
   );
 }
