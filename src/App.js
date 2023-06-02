@@ -17,10 +17,13 @@ function App() {
         }}>
       <CardContent sx={{
         display:'flex',
-        flexDirection:'column'
+        flexDirection:'column',
+        
       }}>
       <Typography variant="h1" sx={{
-        fontSize: '20px'}}>
+        fontSize: '20px',
+        
+        }}>
         React json placeholder
       </Typography>
       <TextField
